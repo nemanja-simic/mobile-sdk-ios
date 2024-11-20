@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "CrowdinSDK", targets: ["CrowdinSDK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/serhii-londar/BaseAPI.git", .upToNextMajor(from: "0.2.1")),
+        .package(url: "https://github.com/serhii-londar/BaseAPI.git", .upToNextMajor(from: "0.2.2")),
         .package(url: "https://github.com/daltoniam/Starscream.git", .upToNextMajor(from: "4.0.4"))
     ],
     targets: [
